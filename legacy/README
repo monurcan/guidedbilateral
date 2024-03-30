@@ -1,0 +1,13 @@
+Compile C files:
+----------------
+1) run matlab 
+2) add the directory where this README file is in the matlab path
+2) execute "mex bilateralfilter_mex.c"
+3) execute "mex robustbilateralfilter_mex.c"
+4) execute "mex jointcrossbilateralfilter_mex.c"
+5) execute "mex guidedbilateralfilter_mex.c"
+
+Test filters:
+-------------
+1) execute with matlab "run_test"
+
